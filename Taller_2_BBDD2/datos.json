@@ -1,0 +1,23 @@
+[
+  {
+    "coleccion": "productos",
+    "datos": [
+      {"_id": 1, "nombre": "Laptop", "categoria": "Electrónica", "precio": 800},
+      {"_id": 2, "nombre": "Auriculares", "categoria": "Electrónica", "precio": 50},
+      {"_id": 3, "nombre": "Camiseta", "categoria": "Ropa", "precio": 20},
+      {"_id": 4, "nombre": "Pantalón", "categoria": "Ropa", "precio": 40},
+      {"_id": 5, "nombre": "Zapatillas", "categoria": "Calzado", "precio": 60}
+    ]
+  },
+  {
+    "coleccion": "ventas",
+    "datos": [
+      {"_id": 1, "producto_id": 1, "cantidad": 2, "fecha": "2024-11-01"},
+      {"_id": 2, "producto_id": 2, "cantidad": 5, "fecha": "2024-11-02"},
+      {"_id": 3, "producto_id": 3, "cantidad": 3, "fecha": "2024-11-02"},
+      {"_id": 4, "producto_id": 1, "cantidad": 1, "fecha": "2024-11-03"},
+      {"_id": 5, "producto_id": 4, "cantidad": 2, "fecha": "2024-11-03"},
+      {"_id": 6, "producto_id": 5, "cantidad": 4, "fecha": "2024-11-04"}
+    ]
+  }
+]
